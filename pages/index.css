@@ -110,7 +110,7 @@
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
-  size: cover;
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
