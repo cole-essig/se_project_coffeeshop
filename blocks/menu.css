@@ -1,0 +1,84 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__title {
+  max-width: 780px;
+  margin: 100px auto 0;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  max-width: 810px;
+  margin: 24px auto 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__subtitle_span {
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.menu__cards {
+  display: flex;
+  margin: 0 auto 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.card {
+  display: flex;
+  width: 540px;
+  flex-direction: column;
+}
+
+.card__title {
+  padding: 0 0 32px;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.card__list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.card__list-item {
+  display: flex;
+  padding: 16px 0 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item_first {
+  padding: 0;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid #000;
+  flex-grow: 1;
+  margin: 0 10px;
+}
