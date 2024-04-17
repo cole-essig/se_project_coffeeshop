@@ -18,19 +18,14 @@
 }
 
 .menu__subtitle {
-  max-width: 810px;
+  max-width: 815px;
   margin: 24px auto 100px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-}
-
-.menu__subtitle_span {
-  display: block;
   text-align: center;
-  white-space: nowrap;
 }
 
 .menu__cards {
@@ -40,45 +35,4 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
-}
-
-.card {
-  display: flex;
-  width: 540px;
-  flex-direction: column;
-}
-
-.card__title {
-  padding: 0 0 32px;
-  justify-content: flex-start;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0;
-}
-
-.card__list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.card__list-item {
-  display: flex;
-  padding: 16px 0 0;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__list-item_first {
-  padding: 0;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid #000;
-  flex-grow: 1;
-  margin: 0 10px;
 }

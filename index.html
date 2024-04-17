@@ -60,33 +60,28 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__paragraph">
-            <span class="header__footer-span"> Hours: </span>
-            <span class="header__footer-span">
-              Monday-Friday(10:00-19:00)
-            </span>
-            <span class="header__footer-span">
-              Saturday-Sunday(11:00-18:00)
-            </span>
-          </p>
-          <p class="header__address">
-            200 Success Avenue, The Town of Triple Peaks
-          </p>
+          <div class="header__footer_column">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday-Friday(10:00-19:00)</p>
+            <p class="header__paragraph">Saturday-Sunday(11:00-18:00)</p>
+          </div>
+          <div class="header__footer_column">
+            <p class="header__paragraph">
+              200 Success Avenue, The Town of Triple Peaks
+            </p>
+          </div>
+          </div>
         </div>
       </header>
       <main class="content">
         <section class="recipes" id="Recipes-section">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
-            <span class="recipes__subtitle-span">
               Check out some recipes weve collected for
-            </span>
-            <span class="recipes__subtitle-span">
               your home-brewing convienence:
-            </span>
           </p>
           <div class="recipes__videos">
-            <div class="recipes__video">
+            <div class="recipes__video--aeropress">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
@@ -95,12 +90,12 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-caption">
-                <p>AeroPress recipe</p>
-                <p>~5min</p>
-              </div>
+              <p class="recipes__video-caption">
+                <span>AeroPress recipe</span>
+                <span>~5min</span>
+              </p>
             </div>
-            <div class="recipes__video">
+            <div class="recipes__video--frenchpress">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8"
@@ -109,10 +104,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-caption">
-                <p>French press recipe</p>
-                <p>~15min</p>
-              </div>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span>
+                <span>~15min</span>
+              </p>
             </div>
           </div>
         </section>
@@ -159,7 +154,7 @@
 
               <button class="form__button" type="submit">Book a table</button>
 
-              <fieldset class="form__fieldset form__fieldset_checkbox">
+              <fieldset class="form__fieldset form__fieldset_type-checkbox">
                 <input
                   type="checkbox"
                   class="form__checkbox"
@@ -168,7 +163,7 @@
                   value="consent-check"
                   required
                 />
-                <label for="checkbox" class="form__label form__label_checkbox">
+                <label for="checkbox" class="form__label form__label_type-checkbox">
                   I agree with the terms of use
                 </label>
               </fieldset>
@@ -178,19 +173,14 @@
         <section class="menu" id="Menu-section">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
-            <span class="menu__subtitle_span">
               We brew coffee from locally roasted, Fairtrade certified beans and
-              use biodegradable
-            </span>
-            <span class="menu__subtitle_span">
-              cups. All teas from our collection are $2/cup.
-            </span>
+              use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
             <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
-                <li class="card__list-item card__list-item_first">
+                <li class="card__list-item">
                   Regular (12 oz) <span class="card__list-divider"> </span> $1
                 </li>
                 <li class="card__list-item">
@@ -212,7 +202,7 @@
             <div class="card">
               <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
-                <li class="card__list-item card__list-item_first">
+                <li class="card__list-item">
                   Macchiato <span class="card__list-divider"> </span> $2.25
                 </li>
                 <li class="card__list-item">
@@ -230,7 +220,7 @@
             <div class="card">
               <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
-                <li class="card__list-item card__list-item_first">
+                <li class="card__list-item">
                   Almond Croissant <span class="card__list-divider"> </span> $2
                 </li>
                 <li class="card__list-item">
@@ -261,7 +251,7 @@
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WIFI.
             </p>
-            <p class="about__paragraph about__paragraph_middle">
+            <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
             </p>
             <p class="about__paragraph">
@@ -277,13 +267,11 @@
       <footer class="footer">
         <div class="footer__content">
           <div class="footer__columns">
-            <div class="footer__column">
               <img
                 src="./images/logo_coffeeshop_light.svg"
                 alt="Light Coffeeshop logo"
                 class="footer__logo"
               />
-            </div>
             <div class="footer__column">
               <h3 class="footer__social-heading">Social media</h3>
               <ul class="footer__list">
