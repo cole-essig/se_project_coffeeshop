@@ -39,6 +39,7 @@
 
 .nav__link:hover {
   color: #1f69c9;
+  transition: color 0.5s ease-in;
 }
 
 .header__title {
