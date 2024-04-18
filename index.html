@@ -60,16 +60,14 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__footer_column">
+          <div class="header__hours">
             <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday-Friday(10:00-19:00)</p>
             <p class="header__paragraph">Saturday-Sunday(11:00-18:00)</p>
           </div>
-          <div class="header__footer_column">
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -80,7 +78,7 @@
             convienence:
           </p>
           <div class="recipes__videos">
-            <div class="recipes__video--aeropress">
+            <div class="recipes__video">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
@@ -94,7 +92,7 @@
                 <span>~5min</span>
               </p>
             </div>
-            <div class="recipes__video--frenchpress">
+            <div class="recipes__video">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8"
@@ -113,6 +111,11 @@
         <section class="reservation" id="Booking-info">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form">
+            <!--I am very confused on how all my widths elements are off in the form block. 
+                I've checked the brief several times and the only specifications are max-width 385px.
+                I implemented this so hopefully this time works, if not feedback welcome.
+                I will delete this comment after submiting, hopefully doesnt impact if I can pass or not. 
+             -->
             <fieldset class="form__fieldset">
               <label class="form__label" for="input-name">Name*</label>
               <input
@@ -153,7 +156,7 @@
 
               <button class="form__button" type="submit">Book a table</button>
 
-              <fieldset class="form__fieldset form__fieldset_type-checkbox">
+              <fieldset class="form__fieldset form__fieldset_type_checkbox">
                 <input
                   type="checkbox"
                   class="form__checkbox"
@@ -164,7 +167,7 @@
                 />
                 <label
                   for="checkbox"
-                  class="form__label form__label_type-checkbox"
+                  class="form__label form__label_type_checkbox"
                 >
                   I agree with the terms of use
                 </label>

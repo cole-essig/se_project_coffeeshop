@@ -49,15 +49,16 @@
 .header__footer {
   margin: auto 80px 40px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-.header__footer_column {
+.header__hours {
   display: flex;
   flex-direction: column;
 }
 
-.header__footer_column:last-child {
+.header__paragraph:last-child {
   align-self: flex-end;
 }
 

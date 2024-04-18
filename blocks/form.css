@@ -46,13 +46,14 @@
   opacity: 100%;
   transition: opacity 0.5s ease-in-out;
   border: none;
+  max-width: 385px;
 }
 
 .form__button:hover {
   opacity: 70%;
 }
 
-.form__fieldset_type-checkbox {
+.form__fieldset_type_checkbox {
   display: flex;
   flex-direction: row;
 }
@@ -66,6 +67,6 @@
   background-image: url(../images/check.svg);
 }
 
-.form__label_type-checkbox {
+.form__label_type_checkbox {
   padding: 0;
 }
